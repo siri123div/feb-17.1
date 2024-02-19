@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .r{
+            height: 500px;
+            width: 300px;
+            border: solid black 1px;
+            background-color: burlywood;
+             }
+        .s:active~img{
+            transform: rotate(none);
+            background-color: cadetblue;
+            }
+        .s1:active~img{
+            transform: rotate(10deg);
+        }
+        .s2:active~img{
+            transform: rotate(45deg);
+        }
+        .s3:active~img{
+            transform: rotate(45deg);
+        }
+        .s4:active~img{
+            transform: rotate(100deg);
+        }
+        .s5:active~img{
+            transform: rotate(45deg);
+        }
+        .s6:active~img{
+            transform: rotate(80deg);
+        }
+        .s7:active~img{
+            transform: skew(20deg,20deg);
+        }
+        .s8:active~img{
+            transform: skew(30deg,30deg);
+        }
+        .s10:active~img{
+            transform: skewy(40deg);
+        }
+        .s11:active~img{
+            transform: translate(20px,10px);
+        }
+        .s12:active~img{
+            transform: translate(20px,20px);
+        }
+        .s13:active~img{
+            transform: scale(2,2);
+        }
+        .s14:active~img{
+            transform: scale(2.3);
+        }
+</style>
+</head>
+<body>
+<div class="r">
+ <div class="s">
+    <input type="radio" name="action" class="none" >transform: none;</div>
+    <div class="s1">
+        <input type="radio" name="action" class="rotate">transform: rotate (10deg);</div>
+        <div class="s2">
+            <input type="radio" name="action" class="rotate">trasform: rotate (45deg);</div>
+            <div class="s3">
+                <input type="radio" name="action" class="rotate">trasform: rotate (45de);</div>
+                <div class="s4">
+                    <input type="radio" name="action" class="rotateX">transform: rotateX (100deg);</div>
+                    <div class="s4">
+                        <input type="radio" name="action" class="rotateY">trasform: rotateY (45deg);</div>
+                        <div class="s5">
+                            <input type="radio" name="action" class="rotateY">trasform: rotateY (80deg);</div>
+                            <div class="s6">
+                                <input type="radio" name="action" class="skew" >transform: skew(20deg,20deg);</div>
+                                <div class="s7">
+                                    <input type="radio" name="action" class="skew">transform: skew(30deg,30deg); </div>
+                                        <div class="s10">
+                                            <input type="radio" name="action" class="skweY">trasform: skweY (40deg);</div>
+                                            <div class="s11">
+                                                <input type="radio" name="action" class="translate">transform: translate (20px,10px);</div>
+                                                <div class="s12">
+                                                    <input type="radio" name="action" class="translate">trasform: translate (20px,20px); </div>
+                                                    <div class="s13">
+                                                        <input type="radio" name="action" class="scale">trasform: scale (2,2); </div>
+                                                         <div class="s14">
+                                                            <input type="radio" name="action" class="scale">trasform: scale (2.3);</div>
+                                                              <img src="./himalayas.jpg">
+                
+                             
+           
+    </div>
+
+
+    
+    
+</body>
+</html>
